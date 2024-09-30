@@ -63,6 +63,11 @@ p {
     font-size: 28px;
 }
 
+.Section img {
+    max-width: 100%;
+    height: auto;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -90,4 +95,26 @@ p {
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+}
+
+@media screen and (max-width: 800px) {
+    #navbar {
+        display: none;
+    }
+
+    #navbar-logo {
+        max-width: 75%;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
