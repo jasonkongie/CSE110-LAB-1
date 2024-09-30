@@ -9,14 +9,14 @@
     background-color: rgb(245, 240, 230);
 }
 
-#S2 {
+#S2, #S4 {
     background-image: url('bg-orbs-1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
 }
 
-#S2 h2, #S2 p {
+#S2 h2, #S2 p, #S4 h2, #S4 label {
     color: white;
 }
 
