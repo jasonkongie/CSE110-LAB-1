@@ -1,0 +1,93 @@
+.Section {
+    scroll-margin-top: 60px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#S1 {
+    background-color: rgb(245, 240, 230);
+}
+
+#S2 {
+    background-image: url('bg-orbs-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#S2 h2, #S2 p {
+    color: white;
+}
+
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+}
+
+#navbar li {
+    float: left;
+}
+
+#navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 28px;
+}
+
+#navbar li a:hover {
+    background-color: #182b49;
+    color: white;
+}
+
+#navbar-logo {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 28px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    justify-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.grid-item {
+    background-color: #182b49;
+    color: white;
+    max-height: 500px;
+    overflow: scroll;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.filler p {
+    font-size: 28px;
+    padding: 10px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
